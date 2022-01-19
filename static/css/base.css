@@ -42,6 +42,19 @@ body {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black !important; /* overrides the automatic link colours */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus, {
+    background: black;
+    color: white !important;
+}
+
 .browse-shop-button:hover,
 .browse-shop-button:active,
 .browse-shop-button:focus,
