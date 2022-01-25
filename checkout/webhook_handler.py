@@ -1,10 +1,11 @@
 from django.http import HttpResponse
-from django.core.ail import _send_confirmation_emailfrom django.template.loader import render_to_string
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
 from django.conf import settings
 
 from .models import Order, OrderLineItem
 from products.models import Product
-from profiles.models import UserProfiles
+from profiles.models import UserProfile
 
 import json
 import time
