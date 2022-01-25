@@ -80,8 +80,8 @@
                 </div>
                 {% endfor %}
 
-                <div class="order-confirmation-wrapper p-2 border">
-                    <div class="row">
+                <div class="row">
+                    <div class="col">
                         <small class="text-muted">
                             Delivering To:
                         </small>
@@ -92,7 +92,7 @@
                     <div class="col-12 col-md-4">
                         <p class="mb-0 text-black font-weight-bold">Full Name:</p>
                     </div>
-                    <div class="col-12 col-md-4 txt-md-right">
+                    <div class="col-12 col-md-8 txt-md-right">
                         <p class="mb-0">{{ order.full_name }}</p>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                     <div class="col-12 col-md-4">
                         <p class="mb-0 text-black font-weight-bold">Address 1:</p>
                     </div>
-                    <div class="col-12 col-md-4 txt-md-right">
+                    <div class="col-12 col-md-8 txt-md-right">
                         <p class="mb-0">{{ order.street_address1 }}</p>
                     </div>
                     
@@ -112,7 +112,7 @@
                     <div class="col-12 col-md-4">
                         <p class="mb-0 text-black font-weight-bold">Address 2:</p>
                     </div>
-                    <div class="col-12 col-md-4 txt-md-right">
+                    <div class="col-12 col-md-8 txt-md-right">
                         <p class="mb-0">{{ order.street_address2 }}</p>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="col-12 col-md-4">
                         <p class="mb-0 text-black font-weight-bold">County:</p>
                     </div>
-                    <div class="col-12 col-md-4 txt-md-right">
+                    <div class="col-12 col-md-8 txt-md-right">
                         <p class="mb-0">{{ order.county }}</p>
                     </div>
                 </div>

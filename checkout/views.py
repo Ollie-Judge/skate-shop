@@ -19,7 +19,7 @@ def cache_checkout_data(request):
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
         stripe.PaymentIntent.modify(pid, metadata={
-            'bag': json/dumps(request.session.get('bag', {})),
+            'bag': json.dumps(request.session.get('bag', {})),
             'save_info': request.POST.get('save_info'),
             'username': request.user,
         })
@@ -45,7 +45,7 @@ def checkout(request):
             'postcode': request.POST['postcode'],
             'town_or_city': request.POST['town_or_city'],
             'street_address1': request.POST['street_address1'],
-            'street_address2': request.POST['street_address1'],
+            'street_address2': request.POST['street_address2'],
             'county': request.POST['county'],
         }
         order_form = OrderForm(form_data)
@@ -53,7 +53,7 @@ def checkout(request):
             order = order_form.save(commit=False)
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
-            order,original_bag = json.dumps(bag)
+            order.original_bag = json.dumps(bag)
             order.save()
             for item_id, item_data in bag.items():
                 try:
@@ -84,7 +84,8 @@ def checkout(request):
                     return redirect(reverse('view_bag'))
 
             request.session['save-info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',	
+                                    args=[order.order_number]))
         else:
             message.error(request, 'There was an error with your form. \
                 Please double check your information')
@@ -149,17 +150,17 @@ def checkout_success(request, order_number):
     order.save()
 
     if save_info:
-        profile = {
-            'default_phone_number': order.phone_number,
-            'default_country': order.country,
-            'default_postcode': order.postcode,
-            'default_town_or_city': order.town_or_city,
-            'default_street_address1': order.street_address1,
-            'default_street_address2': order.street_address2,
-            'default_county': order.county,
-        }
-        user_profile_form = UserProfileForm(profile_data, instance=profile)
-        if user_profile_form.is_valid():
+        profile_data = {	
+                'default_phone_number': order.phone_number,	
+                'default_country': order.country,	
+                'default_postcode': order.postcode,	
+                'default_town_or_city': order.town_or_city,	
+                'default_street_address1': order.street_address1,	
+                'default_street_address2': order.street_address2,	
+                'default_county': order.county,	
+            }	
+        user_profile_form = UserProfileForm(profile_data, instance=profile)	
+        if user_profile_form.is_valid():	
             user_profile_form.save()
 
     messages.success(request, f'Order has been successfully processed! \
