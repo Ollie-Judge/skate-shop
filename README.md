@@ -71,6 +71,21 @@ Responsive on all devices
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub
     * GitHub is used to store the projects code after being pushed from Git.
+* Python
+    * Used for backend elements and to write the logic that makes the website function
+* Django
+    * Django is a webdevelopment framework and is a templating language that is used when there is a high volume of information being fed through the html pages
+* Heroku
+    * Used to deploy and host the website
+* Bootstrap
+    * Bootstrap was used to customise the webpage and allows me to easily implement consistent designs
+* Fontawesome
+    * Fontawesome was used to implement icons throughout the website
+* SQLite
+    * The data base used to house the products on the website
+* Stripe
+    * The payment platform of choice that was used in this site
+
 
 ---------
 ## Testing
@@ -89,9 +104,9 @@ Responsive on all devices
 
 ### Manual Testing
 
-* The game has been tested on Google Chrome, Internet Explorer, Mozilla Firefox, Safari and Brave browsers.
+* The website has been tested on Google Chrome, Internet Explorer, Mozilla Firefox, Safari and Brave browsers.
 * The website has been viewed on a variety of devices such as Desktop, Laptop, iPhone and Android phones.
-* A large amount of testing was done to ensure that all pages were linking correctly.
+* A large amount of testing was done to ensure that all pages, buttons and interactive elements are functioning correctly.
 * Friends and family members have been asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Manual Testing Screenshots
