@@ -7,7 +7,32 @@
 
 ## User Stories
 
+I want to view a list of products and view individual product details so i can find products and then look at specific deatils about them.
+
+I want to view all purchases in a basket/shopping cart so i can easily see what im buying and find out how much i will spend.
+
+I want to be able to create an account, login/logout, recover password and personalise my profile, this will allow me to log purchase history and save payment details.
+
+I want to  sort by a list of available products, a specific category of product, multiple categories simultaniously, search for a product by name, easily see whats been searched and how many results, and select the size and quanity of the product. I want to be able to do all of this because it will make it easier for me to find specific items that i want to look for, each option will allow me to find the best products and products that fit my specific requirements.
+
+I want to be able to adjust the ammount of items In my bag so i can easily make changes before i puchase the items in my basket.
+
+I want to easily enter my payment info so I can check out easily without hassle.
+
+I want to feel my info is secure so i can have confidence in the website and provide payment info with out leaks or breeches.
+
+I want to view an order confirmation and an email confirmation after checkout which will verify that I've bought the goods i wanted to buy.
+
 ## Owner stories
+
+I want to add a product to the website so i can add new items to my store.
+
+I want to be able to edit/update a product so i can change product prices and details easily.
+
+I want to have a safe and secure payment system so that i can take payments without a worry of breaches, which will allow me to operatea successfull business.
+
+I want to be able to delete a product so i can remove items that are no longer for sale.
+
 
 ## Design
 
