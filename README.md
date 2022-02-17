@@ -33,7 +33,6 @@ I want to have a safe and secure payment system so that i can take payments with
 
 I want to be able to delete a product so i can remove items that are no longer for sale.
 
-
 ## Design
 
 ## Colour Scheme
@@ -46,6 +45,13 @@ I want to be able to delete a product so i can remove items that are no longer f
 
 ---------
 ## Features
+
+Login/Logout/Register/Profiles
+Shopping cart
+Checkout/Payment system(Stripe)
+Products database
+Search functionality within the store
+Responsive on all devices
 
 ---------
 ## Technologies Used
