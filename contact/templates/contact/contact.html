@@ -17,6 +17,22 @@
                 <h2 class="logo-font">Contact Us</h2>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form method="POST" action="{% url 'contact' %}" class="mb-2">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        {{ field | as_crispy_field }}
+                    {% endfor %}
+                    <div>
+                        <button class="btn btn-black" type="submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <footer>
