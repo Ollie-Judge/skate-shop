@@ -67,26 +67,66 @@ This test is to confirm that user registration process works correctly.
     12. Repeat the above steps using a mobile device if possible.
 
 #### User authentication
+This test confirms that the users can log in to the site and access the pages they have permissions to view.
 
-#### Signout
+#### How i did this:
 
+    1. Open the browser and go to: . Logout of the site if needed.
+    2. Logout of the site if currently logged in.
+    3. Then login to the site using a standard user account.
+    4. Confirm that the user has access to the appropriate pages for a non admin user
+    5. Logout then try the same again for an admin account.
+    6. Repeat the above steps using Firefox, Opera, Edge & Safari browsers.
+    7. Repeat the above steps using a mobile device if possible.
+
+#### Log in and Sign out
+This test is to confirm that the user can login and sign-out of the site and is redirected to the correct screen after sign-out.
+
+#### How i did this:
+
+    1. Login by clicking the login link in the menu.
+    2. Logout of the account by clicking the Logout link.
+    3. Confirm that the user is redirected to the Sign Out confirmation page.
+    4. Click the confirm Sign Out button and check to see if the user is redirected back to the home page.
+    5. Then to Confirm the correct links are displayed in the My Account dropdown menu - you should see Register and Login.
+    6. Repeat the above steps using Firefox, Opera, Edge & Safari browsers.
+    7. Repeat the above steps using a mobile device if possible.
+    
 #### Products Page
+
+#### How i did this:
 
 #### Product Details Page
 
+#### How i did this:
+
 #### Sorting Categories and Search
+
+#### How i did this:
 
 #### Add and delete Products
 
+#### How i did this:
+
 #### Edit Products
+
+#### How i did this:
 
 #### Add, delete and change item numbers in the cart
 
+#### How i did this:
+
 #### Checkout and stripe payment
+
+#### How i did this:
 
 #### Profile Page
 
+#### How i did this:
+
 #### Contact Us
+
+#### How i did this:
 
 ----------
 
