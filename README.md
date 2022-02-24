@@ -177,5 +177,7 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 ---------
 ## Issues when making the project
 
+During the creation of the project i discovered that my secret key was exposed and needed to remove the secret key which was in my main settings.py file and make a new secret key and relocate it to my env.py file which is a secure file not accessible out side of the workspace.
+
 ---------
 ## Credits
