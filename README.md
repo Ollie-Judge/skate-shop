@@ -33,7 +33,8 @@ I want to have a safe and secure payment system so that i can take payments with
 
 I want to be able to delete a product so i can remove items that are no longer for sale.
 
-## Design
+## Strategy Plane
+The purpose of the website is to create an ecommerce website for a skating brand to sell skating products and clothes.
 
 ## Colour Scheme
 
@@ -50,8 +51,34 @@ Login/Logout/Register/Profiles
 Shopping cart
 Checkout/Payment system(Stripe)
 Products database
+Product pages + individual product details pages
 Search functionality within the store
 Responsive on all devices
+Easy to use navigation
+About section
+Contact page
+Product management
+
+--------
+## Structure
+
+The website should be easy to use and simple to understand, it should be intuitive and enjoyable to use, which the structure should represent.
+
+* Home page
+
+* Store
+
+* Products
+
+* Product details
+
+* Toasts
+
+* Profiles
+
+* Shopping cart
+
+* Checkout
 
 ---------
 ## Technologies Used
