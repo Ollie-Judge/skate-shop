@@ -135,8 +135,15 @@ The website should be easy to use and simple to understand, it should be intuiti
     * Save and delete options
 
 * About us
+    The about us section has a summary of who we are and why we do what we do, it also features an ethos designed to appeal to the cutomer and set the customer base.
+    #### Contents of the about us page
+    * Paragraphs detailing who we are and what we do and why
+    * Social media links to give the user more content to view and to conenct with us on different platforms
 
 * Contact us
+    The contact us page is for people who have questions about a product or need to check something about the store, its a simple form that when filled out will be sent to the email of the person who can answer the questions the customer asks.
+    #### Contents of the about us page
+    * Contact form, Email, subject and message with a submit box
 ---------
 ## Technologies Used
 * HTML
