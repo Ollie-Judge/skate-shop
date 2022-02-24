@@ -65,21 +65,78 @@ Product management
 The website should be easy to use and simple to understand, it should be intuitive and enjoyable to use, which the structure should represent.
 
 * Home page
+    The home page is simple and welcoming presenting itself to the user in a stylish and appropriate manor, i went with simplistic design that focuses on readability and ease of use, for example, adequate spacing and not littering the home page with things to look at which would overload the users mind.
+
+    #### Contents of the home page
+
+    * Simple artistic welcome photo
+    * A call to action in the form of reccomending the user visit the store 
+    * Button that send the user to the store under neath the call to action
+    * Navbar
+    * Banner displaying a special dea lto increase customers desires to buy items
 
 * Store
+    The store is easy to navigate, with plenty of search and sort options. This was done by having sort by rating, price and category, the search function sorts by category and product name.
 
-* Products
+    #### Contents of the store page
+    * Nav bar
+    * Banner displaying a special dea lto increase customers desires to buy items
+    * Products
+    * Sort options
+    * Update and delete functionality that only the admin can see
 
 * Product details
+    The product details page focuses on the details of the individual product and sell the item to the user. This was done by having a description, a product photo, a rating, category type, a price and add to cart, This is everything a customer should need to make a descision on wether to purchase an item or not.
+
+    #### Contents of the product details page
+    * Nav bar
+    * Banner displaying a special dea lto increase customers desires to buy items
+    * Product details(description)
+    * Product photo
+    * Product rating
+    * Category type
+    * Product price
+    * Add to cart
 
 * Toasts
+    The toasts inform the user of any action that the customer makes, such as added an item to the cart, or login and log out of the users account. This was done for adding and removing a product from the cart, purchasing an item, registering an account, loggin in and  out, this also includes warnings and errors with anyhting that may go wrong with the site.
 
 * Profiles
+    The profile is made up of 2 parts, a form for the users address and a product history. The address form is to speed up checkout times as when the form is filled out and saved, it will automatically fill in the checkout form in for you, all you need to do is fill in the payment details. The order history is to help the user see what they bought from us before, for example, if they cant remember the parts they bought and need the same parts again, they can visit this section and see waht they ahve bought before.
 
-* Shopping cart
+    #### Contents of the profiles page
+    * Navbar
+    * User address
+    * Order history
+
+* Shopping cart and checkout
+    The shopping cart is easy to understand, it tells the user what they will buy and how much it will cost, featuring a breakdown of the payment, such as delivery cost and total price for the items.
+
+    #### Contents of the Shopping cart page
+    * Navbar
+    * What the user will buy
+    * Continue to payment button 
+    * Go back to products button
+
 
 * Checkout
+    The checkout is the same as the shopping cart except with a form for the users address and payment details and also inform the user of what they are buying with a price breakdown in the same way as the shopping cart page.
 
+    #### Contents of the Shopping cart page
+    * Navbar
+    * Delivery form
+    * What the user will buy
+
+* Product management
+    The product management is a simple to use page for the admin to add, create and delete products without accessing the backend of the website, it features add create and delete options which are clearly marked and has a form featuring everything that the admin will need to set up a product to be sold to the customers.
+    #### Contents of the Product management page
+    * Navbar
+    * Product form
+    * Save and delete options
+
+* About us
+
+* Contact us
 ---------
 ## Technologies Used
 * HTML
@@ -177,7 +234,7 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 ---------
 ## Issues when making the project
 
-During the creation of the project i discovered that my secret key was exposed and needed to remove the secret key which was in my main settings.py file and make a new secret key and relocate it to my env.py file which is a secure file not accessible out side of the workspace.
+During the creation of the project I discovered that my secret key was exposed and needed to remove the secret key which was in my main settings.py file and make a new secret key and relocate it to my env.py file which is a secure file not accessible out side of the workspace.
 
 ---------
 ## Credits
