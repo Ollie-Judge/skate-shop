@@ -50,6 +50,8 @@ The test of the navigation bar was conducted by clicking all links to check to s
 #### Register an account
 This test is to confirm that user registration process works correctly.
 
+#### How i did this:
+
     1. Open the browser and go to: . Logout of the site if needed.
     2. If youre logged in, then logout of the site.
     3. Click on the Register link in the menu.
