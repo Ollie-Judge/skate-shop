@@ -25,6 +25,8 @@ The site was tested on a desktop and a laptop using Chrome, Firefox, Edge, Opera
 ## User Story testing
 
 ### Feature testing
+
+#### Navbar
 The test of the navigation bar was conducted by clicking all links to check to see if they function correctly and that the correct links are displayed for admin and non admin users.
 
 #### How i did this:
@@ -44,3 +46,46 @@ The test of the navigation bar was conducted by clicking all links to check to s
     11. Repeat the above steps using Firefox, Opera, Edge & Safari browsers.
     12. Repeat the above steps using a mobile device if possible.
     13. Repeat the above tests with a screen size of <=992 pixels.
+
+#### Register an account
+This test is to confirm that user registration process works correctly.
+
+    1. Open the browser and go to: . Logout of the site if needed.
+    2. If youre logged in, then logout of the site.
+    3. Click on the Register link in the menu.
+    4. Confirm that the form validation functions correctly. All fields are required and the user should be prompted to complete all fields.
+    Complete the form and click the Sign Up button
+    5. Confirm that the user is redirected to the Verify Your Email Address page and that a message appears suggesting that a confirmation email has been sent.
+    6. Confirm that a confirmation email was received at the email address used in the form.
+    7. Click on the link in the confirmation email and activate the account.
+    8. On the Confirm Email Address screen click on the Confirm button.
+    9. Sign into the account using the user credentials that have just been confirmed.
+    10. Check that the correct links appear in menu for a logged in non-admin user.
+    11. Repeat the above steps using Firefox, Opera, Edge & Safari browsers.
+    12. Repeat the above steps using a mobile device if possible.
+
+#### User authentication
+
+#### Signout
+
+#### Products Page
+
+#### Product Details Page
+
+#### Sorting Categories and Search
+
+#### Add and delete Products
+
+#### Edit Products
+
+#### Add, delete and change item numbers in the cart
+
+#### Checkout and stripe payment
+
+#### Profile Page
+
+#### Contact Us
+
+----------
+
+## Unit tests
