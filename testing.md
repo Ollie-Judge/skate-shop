@@ -93,40 +93,96 @@ This test is to confirm that the user can login and sign-out of the site and is 
     7. Repeat the above steps using a mobile device if possible.
     
 #### Products Page
+This test is to confirm that the products on the products page load correctly
 
 #### How i did this:
+    1. Access the website
+    2. Go to the clothing, Skateboards and parts tabs and click all prodcuts.
+    2. Repeat the first 2 steps for all options in the products section.
 
 #### Product Details Page
+This is a test to confirm that the product detail page works.
 
 #### How i did this:
+    1. Access the website
+    2. Go to any products page you like
+    3. Click on a product
+    4. Confirm that the product details page has loaded and contains all relevant information
 
-#### Sorting Categories and Search
-
-#### How i did this:
-
-#### Add and delete Products
-
-#### How i did this:
-
-#### Edit Products
+#### Delete and edit Products
+This is to test the add and delete products part in the admin account part of the site
 
 #### How i did this:
+    1. Log in to the admin account
+    2. Navigate to a products page
+    3. Then find the edit and delete buttons next to each product
+    4. Click on delete and delete teh product
+    5. Find another product and click on edit
+    6. Then edit the product and save it
+    7. Go to another product and open up the product details page by clicking on the product
+    8. Repeat the same process for the buttons in this part of the page as you did above
+
+#### Delete and edit Products
+This is to test the add product feature in the manage products tab in the profile section
+
+#### How i did this:
+    1. Once on the page, login as an admin
+    2. Navigate to th emy profile section and then click product management
+    3. Once taken to the add product page, fill out the form
+    4. Click save
+    5. Confirm the add product works by looking in the products page for the new product
 
 #### Add, delete and change item numbers in the cart
+This is to test adding a prodcut to the cart, deleting a product and changing the item numbers in the cart
 
-#### How i did this:
+To test the add to cart feature here's what i did:
+    1. Go to the products page
+    2. click on a product
+    3. in the product details page, click add to cart
+    4. confirm that hte product has entered the cart by looking in the shopping cart
+
+To test the delte and change item, here is what i did:
+    1. Add prodcuts to the cart by navigating to the producs page and clicking on a product, then adding it to the cart
+    2. navigate to the cart at the top right of the screen
+    3. click on the cart and see the shopping cart page
+    4. click the increase and decrease arrows of the products in the page to see the number of products increase and decrese
+    5. click the delte button and confirm 
+    6. confirm that the delte item has worked by confirming that the item is no longer in the cart
 
 #### Checkout and stripe payment
+This is to test the checkout and the stripe payment function
 
 #### How i did this:
+    1. Add items to the cart from the products details page 
+    2. Go to the cart
+    3. Confirm youre happy with the items in your cart
+    4. Click checkout
+    5. Fill out the form in the checkout page
+    6. Click checkout
+    7. Confirm the checkout has worked by seeing the success message in the top right
+    8. To confirm in greater detail, log into an admin account
+    9. Navigate to the admin section by typing /admin after the webaddress
+    10. Navigate to Orders
+    11. View the orders in this section and confirm that it matches what you just checked out with
 
 #### Profile Page
+This test is to confirm that the profile page works as it should
 
 #### How i did this:
+    1. Log in to a user account
+    2. Navigate to the profile option in the top right
+    3. Confirm that youre sent to the correct page by seeing the form for your address and your order history
+    4. Fill the form in and save the form, then reapeat the previous steps to check if the form has saved
+    4. Repeat the same process by logging out and logging into an admin account
 
 #### Contact Us
+This is a test to confirm that the contact us form has worked correctly
 
 #### How i did this:
+    1. Navigate to the contact us page
+    2. Fill in the form
+    3. Click the submit button
+    4. Confirm that the form has sent by looking at the top right confirmation toast
 
 ----------
 
