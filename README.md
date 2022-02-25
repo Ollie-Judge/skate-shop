@@ -65,6 +65,7 @@ Product management
 The website should be easy to use and simple to understand, it should be intuitive and enjoyable to use, which the structure should represent.
 
 * Home page
+
     The home page is simple and welcoming presenting itself to the user in a stylish and appropriate manor, i went with simplistic design that focuses on readability and ease of use, for example, adequate spacing and not littering the home page with things to look at which would overload the users mind.
 
     #### Contents of the home page
@@ -76,6 +77,7 @@ The website should be easy to use and simple to understand, it should be intuiti
     * Banner displaying a special dea lto increase customers desires to buy items
 
 * Store
+
     The store is easy to navigate, with plenty of search and sort options. This was done by having sort by rating, price and category, the search function sorts by category and product name.
 
     #### Contents of the store page
@@ -86,9 +88,11 @@ The website should be easy to use and simple to understand, it should be intuiti
     * Update and delete functionality that only the admin can see
 
 * Product details
+
     The product details page focuses on the details of the individual product and sell the item to the user. This was done by having a description, a product photo, a rating, category type, a price and add to cart, This is everything a customer should need to make a descision on wether to purchase an item or not.
 
     #### Contents of the product details page
+
     * Nav bar
     * Banner displaying a special dea lto increase customers desires to buy items
     * Product details(description)
@@ -99,20 +103,25 @@ The website should be easy to use and simple to understand, it should be intuiti
     * Add to cart
 
 * Toasts
+
     The toasts inform the user of any action that the customer makes, such as added an item to the cart, or login and log out of the users account. This was done for adding and removing a product from the cart, purchasing an item, registering an account, loggin in and  out, this also includes warnings and errors with anyhting that may go wrong with the site.
 
 * Profiles
+
     The profile is made up of 2 parts, a form for the users address and a product history. The address form is to speed up checkout times as when the form is filled out and saved, it will automatically fill in the checkout form in for you, all you need to do is fill in the payment details. The order history is to help the user see what they bought from us before, for example, if they cant remember the parts they bought and need the same parts again, they can visit this section and see waht they ahve bought before.
 
     #### Contents of the profiles page
+
     * Navbar
     * User address
     * Order history
 
 * Shopping cart and checkout
+
     The shopping cart is easy to understand, it tells the user what they will buy and how much it will cost, featuring a breakdown of the payment, such as delivery cost and total price for the items.
 
     #### Contents of the Shopping cart page
+
     * Navbar
     * What the user will buy
     * Continue to payment button 
@@ -123,34 +132,46 @@ The website should be easy to use and simple to understand, it should be intuiti
     The checkout is the same as the shopping cart except with a form for the users address and payment details and also inform the user of what they are buying with a price breakdown in the same way as the shopping cart page.
 
     #### Contents of the Shopping cart page
+
     * Navbar
     * Delivery form
     * What the user will buy
 
 * Product management
+
     The product management is a simple to use page for the admin to add, create and delete products without accessing the backend of the website, it features add create and delete options which are clearly marked and has a form featuring everything that the admin will need to set up a product to be sold to the customers.
+
     #### Contents of the Product management page
     * Navbar
     * Product form
     * Save and delete options
 
 * About us
+
     The about us section has a summary of who we are and why we do what we do, it also features an ethos designed to appeal to the cutomer and set the customer base.
+
     #### Contents of the about us page
+
     * Paragraphs detailing who we are and what we do and why
     * Social media links to give the user more content to view and to conenct with us on different platforms
 
 * Contact us
+
     The contact us page is for people who have questions about a product or need to check something about the store, its a simple form that when filled out will be sent to the email of the person who can answer the questions the customer asks.
+
     #### Contents of the about us page
     * Contact form, Email, subject and message with a submit box
 
 * Blog page
-    The blog page is to Provide the customers and the users more content for them to consume, which will bring in more traffic and there for increase sales. The blog is a very useful marketing strategy as it help build personal relationships with users and customers which means that they will be more likely to buy products from the store if trust and a relationship is built with them
+
+    The blog page is to Provide the customers and the users more content for them to consume, which will bring in more traffic and there for increase sales. The blog is a very useful marketing strategy as it help build personal relationships with users and customers which means that they will be more likely to buy products from the store if trust and a relationship is built with them.
+
     #### Contents of the Blog page
     * Nav bar
     * Blog Posts
+
 ---------
+
 ## Technologies Used
 * HTML
     * HTML is used to create the skeleton of the website and to lay down the fundementals that build the website.
@@ -185,6 +206,7 @@ The website should be easy to use and simple to understand, it should be intuiti
 
 
 ---------
+
 ## Testing
 
 ### HTML validation
