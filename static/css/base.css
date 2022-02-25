@@ -27,12 +27,13 @@ body {
 }
 
 .browse-shop {
-    background-color: white;
-    padding: 40px 40px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 40px 60px;
+    border-radius: 25px;
 }
 
 .browse-shop-button {
-    background: black;
     color: white;
     min-width: 260px;
 }
