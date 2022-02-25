@@ -47,17 +47,18 @@ The purpose of the website is to create an ecommerce website for a skating brand
 ---------
 ## Features
 
-Login/Logout/Register/Profiles
-Shopping cart
-Checkout/Payment system(Stripe)
-Products database
-Product pages + individual product details pages
-Search functionality within the store
-Responsive on all devices
-Easy to use navigation
-About section
-Contact page
-Product management
+* Login/Logout/Register/Profiles
+* Shopping cart
+* Checkout/Payment system(Stripe)
+* Products database
+* Product pages + individual product details pages
+* Search functionality within the store
+* Responsive on all devices
+* Easy to use navigation
+* About section
+* Contact page
+* Product management
+* Blog page
 
 --------
 ## Structure
