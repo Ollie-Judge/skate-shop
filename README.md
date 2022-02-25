@@ -199,16 +199,9 @@ The website should be easy to use and simple to understand, it should be intuiti
 
 ![JavaScript Validation](assets/img/)
 
-### Manual Testing
+## For more testing click the link below
 
-* The website has been tested on Google Chrome, Internet Explorer, Mozilla Firefox, Safari and Brave browsers.
-* The website has been viewed on a variety of devices such as Desktop, Laptop, iPhone and Android phones.
-* A large amount of testing was done to ensure that all pages, buttons and interactive elements are functioning correctly.
-* Friends and family members have been asked to review the site and documentation to point out any bugs and/or user experience issues.
-
-### Manual Testing Screenshots
-
-### Known Issues
+ [CLICK ME FOR MORE TESTING ](testing.md) 
 
 ---------
 ## Deployment
