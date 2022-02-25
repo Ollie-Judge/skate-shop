@@ -51,7 +51,7 @@ body {
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
-.btn-outline-black:focus, {
+.btn-outline-black:focus {
     background: black;
     color: white !important;
 }
