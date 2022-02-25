@@ -81,6 +81,7 @@ The website should be easy to use and simple to understand, it should be intuiti
     The store is easy to navigate, with plenty of search and sort options. This was done by having sort by rating, price and category, the search function sorts by category and product name.
 
     #### Contents of the store page
+
     * Nav bar
     * Banner displaying a special dea lto increase customers desires to buy items
     * Products
@@ -129,6 +130,7 @@ The website should be easy to use and simple to understand, it should be intuiti
 
 
 * Checkout
+
     The checkout is the same as the shopping cart except with a form for the users address and payment details and also inform the user of what they are buying with a price breakdown in the same way as the shopping cart page.
 
     #### Contents of the Shopping cart page
