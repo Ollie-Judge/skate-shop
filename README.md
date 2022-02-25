@@ -2,7 +2,7 @@
 
 ---------
 
-![Responsive  Image](assets/img/)
+![Responsive  Image](media/skate_shop_responsive.png)
 
 ---------
 
