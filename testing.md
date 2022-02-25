@@ -13,11 +13,13 @@ Google Lighthouse has been used to check the Performance, Accessibility, Best Pr
 ## Responsiveness testing
 
 ### Mobile and tablet
+
 The responsiveness of the site was tested using Device Mode in Chrome DevTools. For mobile devices the minimum screen width the site was tested at was 320 pixels.
 
 The site was also tested on an adnroid device(huawei p30) and iad. The site was responsive across all devices and screen sizes with no unepected issues.
 
 ### Desktop
+
 The site was tested on a desktop and a laptop using Chrome, Firefox, Edge, Opera and Safari browsers. The site was tested using the following screen widths: 1024 pixels, 1280 pixels, 1440 pixels, 1600 pixels and 1920 pixels.
 
 ---------
@@ -27,6 +29,7 @@ The site was tested on a desktop and a laptop using Chrome, Firefox, Edge, Opera
 ### Feature testing
 
 #### Navbar
+
 The test of the navigation bar was conducted by clicking all links to check to see if they function correctly and that the correct links are displayed for admin and non admin users.
 
 #### How i did this:
@@ -48,6 +51,7 @@ The test of the navigation bar was conducted by clicking all links to check to s
     13. Repeat the above tests with a screen size of <=992 pixels.
 
 #### Register an account
+
 This test is to confirm that user registration process works correctly.
 
 #### How i did this:
@@ -67,6 +71,7 @@ This test is to confirm that user registration process works correctly.
     12. Repeat the above steps using a mobile device if possible.
 
 #### User authentication
+
 This test confirms that the users can log in to the site and access the pages they have permissions to view.
 
 #### How i did this:
@@ -80,6 +85,7 @@ This test confirms that the users can log in to the site and access the pages th
     7. Repeat the above steps using a mobile device if possible.
 
 #### Log in and Sign out
+
 This test is to confirm that the user can login and sign-out of the site and is redirected to the correct screen after sign-out.
 
 #### How i did this:
@@ -93,26 +99,32 @@ This test is to confirm that the user can login and sign-out of the site and is 
     7. Repeat the above steps using a mobile device if possible.
     
 #### Products Page
+
 This test is to confirm that the products on the products page load correctly
 
 #### How i did this:
+
     1. Access the website
     2. Go to the clothing, Skateboards and parts tabs and click all prodcuts.
     2. Repeat the first 2 steps for all options in the products section.
 
 #### Product Details Page
+
 This is a test to confirm that the product detail page works.
 
 #### How i did this:
+
     1. Access the website
     2. Go to any products page you like
     3. Click on a product
     4. Confirm that the product details page has loaded and contains all relevant information
 
 #### Delete and edit Products
+
 This is to test the add and delete products part in the admin account part of the site
 
 #### How i did this:
+
     1. Log in to the admin account
     2. Navigate to a products page
     3. Then find the edit and delete buttons next to each product
@@ -123,9 +135,11 @@ This is to test the add and delete products part in the admin account part of th
     8. Repeat the same process for the buttons in this part of the page as you did above
 
 #### Delete and edit Products
+
 This is to test the add product feature in the manage products tab in the profile section
 
 #### How i did this:
+
     1. Once on the page, login as an admin
     2. Navigate to th emy profile section and then click product management
     3. Once taken to the add product page, fill out the form
@@ -133,15 +147,18 @@ This is to test the add product feature in the manage products tab in the profil
     5. Confirm the add product works by looking in the products page for the new product
 
 #### Add, delete and change item numbers in the cart
+
 This is to test adding a prodcut to the cart, deleting a product and changing the item numbers in the cart
 
-To test the add to cart feature here's what i did:
+#### To test the add to cart feature here's what i did:
+
     1. Go to the products page
     2. click on a product
     3. in the product details page, click add to cart
     4. confirm that hte product has entered the cart by looking in the shopping cart
 
-To test the delte and change item, here is what i did:
+#### To test the delte and change item, here is what i did:
+
     1. Add prodcuts to the cart by navigating to the producs page and clicking on a product, then adding it to the cart
     2. navigate to the cart at the top right of the screen
     3. click on the cart and see the shopping cart page
@@ -150,9 +167,11 @@ To test the delte and change item, here is what i did:
     6. confirm that the delte item has worked by confirming that the item is no longer in the cart
 
 #### Checkout and stripe payment
+
 This is to test the checkout and the stripe payment function
 
 #### How i did this:
+
     1. Add items to the cart from the products details page 
     2. Go to the cart
     3. Confirm youre happy with the items in your cart
@@ -166,9 +185,11 @@ This is to test the checkout and the stripe payment function
     11. View the orders in this section and confirm that it matches what you just checked out with
 
 #### Profile Page
+
 This test is to confirm that the profile page works as it should
 
 #### How i did this:
+
     1. Log in to a user account
     2. Navigate to the profile option in the top right
     3. Confirm that youre sent to the correct page by seeing the form for your address and your order history
@@ -176,9 +197,11 @@ This test is to confirm that the profile page works as it should
     4. Repeat the same process by logging out and logging into an admin account
 
 #### Contact Us
+
 This is a test to confirm that the contact us form has worked correctly
 
 #### How i did this:
+
     1. Navigate to the contact us page
     2. Fill in the form
     3. Click the submit button
