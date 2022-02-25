@@ -144,6 +144,12 @@ The website should be easy to use and simple to understand, it should be intuiti
     The contact us page is for people who have questions about a product or need to check something about the store, its a simple form that when filled out will be sent to the email of the person who can answer the questions the customer asks.
     #### Contents of the about us page
     * Contact form, Email, subject and message with a submit box
+
+* Blog page
+    The blog page is to Provide the customers and the users more content for them to consume, which will bring in more traffic and there for increase sales. The blog is a very useful marketing strategy as it help build personal relationships with users and customers which means that they will be more likely to buy products from the store if trust and a relationship is built with them
+    #### Contents of the Blog page
+    * Nav bar
+    * Blog Posts
 ---------
 ## Technologies Used
 * HTML
