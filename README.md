@@ -1,8 +1,11 @@
 # skate-shop
+
 ---------
+
 ![Responsive  Image](assets/img/)
 
 ---------
+
 ## User Experience (UX)
 
 ## User Stories
@@ -34,6 +37,7 @@ I want to have a safe and secure payment system so that i can take payments with
 I want to be able to delete a product so i can remove items that are no longer for sale.
 
 ## Strategy Plane
+
 The purpose of the website is to create an ecommerce website for a skating brand to sell skating products and clothes.
 
 ## Colour Scheme
@@ -41,10 +45,12 @@ The purpose of the website is to create an ecommerce website for a skating brand
 ## Typeography
 
 ---------
+
 ## Wire Frames
 ![Wire Frame](assets/img/)
 
 ---------
+
 ## Features
 
 * Login/Logout/Register/Profiles
@@ -61,6 +67,7 @@ The purpose of the website is to create an ecommerce website for a skating brand
 * Blog page
 
 --------
+
 ## Structure
 
 The website should be easy to use and simple to understand, it should be intuitive and enjoyable to use, which the structure should represent.
@@ -229,6 +236,7 @@ The website should be easy to use and simple to understand, it should be intuiti
  [CLICK ME FOR MORE TESTING ](testing.md) 
 
 ---------
+
 ## Deployment
 
 ### Deploying to GitHub Pages
@@ -259,13 +267,21 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 6. Type git clone, and paste the URL that you copied in Step 3.
     * Your code should look like this: `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
 7. Press Enter and then your local clone will be created.
+
+## Deploying to Heroku
+
+## AWS
+
 ---------
+
 ## What To Improve Or Add
 
 ---------
+
 ## Issues when making the project
 
 During the creation of the project I discovered that my secret key was exposed and needed to remove the secret key which was in my main settings.py file and make a new secret key and relocate it to my env.py file which is a secure file not accessible out side of the workspace.
 
 ---------
+
 ## Credits
