@@ -103,7 +103,7 @@
                         </div>
                         {% endif %}
                         {% if forloop.counter|divisibleby:3 %}
-                        <div class="col-12 d-none d-lg-none d-xl-none mb-5">
+                        <div class="col-12 d-none d-lg-block d-xl-none mb-5">
                             <hr>
                         </div>
                         {% endif %}
@@ -126,7 +126,7 @@
             var selector = $(this);
             var currentUrl = new URL(window.location);
 
-            var selectVal = selector.val();
+            var selectedVal = selector.val();
             if(selectedVal != "reset"){
                 var sort = selectedVal.split("_")[0]
                 var direction = selectedVal.split("_")[1];
