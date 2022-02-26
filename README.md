@@ -41,13 +41,25 @@ I want to be able to delete a product so i can remove items that are no longer f
 The purpose of the website is to create an ecommerce website for a skating brand to sell skating products and clothes.
 
 ## Colour Scheme
+The colour scheme is a very simple and visually pleaseing style of Black, white and Blue, the reason for this is that it is a minimal colour scheme which matches the theme of the store, which is skateboarding, which is a very minimal and down to earth sport where people work with what they have, often making the small things into the most complex and technical, i feel this resonates with my website.
 
 ## Typeography
+The typography follows the same theme as the colour taking a minimal approach yet still stylish and modern
 
 ---------
 
 ## Wire Frames
-![Wire Frame](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
+![Wire Frame of ](assets/img/)
 
 ---------
 
