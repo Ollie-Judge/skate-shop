@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['skate-shop123.herokuapp.com', 'localhost']
 
@@ -58,6 +58,9 @@ INSTALLED_APPS = [
     'about',
     'contact',
     'blog',
+    'cloudinary_storage',
+    'cloudinary',
+
 
     'crispy_forms',
 
@@ -177,10 +180,21 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': os.getenv('CLOUDINARY_CLOUD_NAME', ''),
+    'API_KEY': os.getenv('CLOUDINARY_API_SECRET', ''),
+    'API_SECRET': os.getenv('CLOUDINARY_API_KEY', ''),
+}
+
+MEDIA_URL = '/media/'  
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+if 'USE_CLOUDINARY' in os.environ:
+    CLOUDINARY_CLOUD_NAME = os.getenv('CLOUDINARY_CLOUD_NAME', '')
+    CLOUDINARY_API_SECRET = os.getenv('CLOUDINARY_API_SECRET', '')
+    CLOUDINARY_API_KEY = os.getenv('CLOUDINARY_API_KEY', '')
 
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
@@ -196,17 +210,4 @@ DEFAULT_FROM_EMAIL = 'skateshop@email.com'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'stmp.gmail.com'
-EMAIL_HOST_USER = 'skateshop365@gmail.com'
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
-
-
-cloudinary.config( 
-  cloud_name = "dnvxi73rz", 
-  api_key = "846819284466498", 
-  api_secret = "vERfw3sYbt-NmlpO-KHgozxuTOc" 
-)
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
