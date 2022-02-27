@@ -1,0 +1,1 @@
+web: gunicorn skate-shop.wsgi:application
