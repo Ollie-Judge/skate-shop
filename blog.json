@@ -1,0 +1,28 @@
+[
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "title": "First Blog Post",
+            "slug": "first-blog-post",
+            "author": 1,
+            "updated_on": "2022-02-26T13:58:07.479Z",
+            "content": "This is my first blog post. Hello! and welcome to Skate Shop, on here we will provide updates, news and things we think you may find interesting. We hope that you enjoy and follow our journey",
+            "created_on": "2022-02-25T11:22:25.247Z",
+            "status": 1
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "title": "Exciting News!",
+            "slug": "exciting-news",
+            "author": 1,
+            "updated_on": "2022-02-26T14:02:43.429Z",
+            "content": "In Our second blog post, we will talk about the Exciting news coming up regarding our store.\r\n\r\nWe thought we’d give you a heads up on a new brand that we’re proud to be stocking here at Skate Shop\r\nPolar Skateboards is a new European skateboard company headed up by Pontus Alv from Sweden. It features some great art direction and quality decks. The teams super hot too and their latest pro is the UK’s own Jerome Campbell. Check out Jerome’s debut pro model deck here.\r\nAlso check out the clip below of Pontus and Jerome ripping it up in Beirut on a Converse trip recently.\r\nI’m sure we’ll be seeing more from these guys soon…",
+            "created_on": "2022-02-25T12:00:02.749Z",
+            "status": 1
+        }
+    }
+]
