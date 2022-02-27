@@ -208,5 +208,3 @@ This is a test to confirm that the contact us form has worked correctly
     4. Confirm that the form has sent by looking at the top right confirmation toast
 
 ----------
-
-## Unit tests

@@ -49,17 +49,16 @@ The typography follows the same theme as the colour taking a minimal approach ye
 ---------
 
 ## Wire Frames
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
-![Wire Frame of ](assets/img/)
+![Wire Frame of home page](media/home.png)
+![Wire Frame of products page](media/products.png)
+![Wire Frame of add product page](media/addproduct.png)
+![Wire Frame of login page](media/login.png)
+![Wire Frame of register page](media/createaccount.png)
+![Wire Frame of sign out page](media/logout.png)
+![Wire Frame of about us page](media/about.png)
+![Wire Frame of blog page](media/blog.png)
+![Wire Frame of contact us page](media/contact.png)
+![Wire Frame of my profile page](media/myprofile.png)
 
 ---------
 
@@ -231,19 +230,7 @@ The website should be easy to use and simple to understand, it should be intuiti
 
 ## Testing
 
-### HTML validation
-
-![HTML Validation](assets/img/)
-
-### CSS Validation
-
-![CSS Validation ](assets/img/)
-
-### JavaScript Validation
-
-![JavaScript Validation](assets/img/)
-
-## For more testing click the link below
+## For testing click the link below
 
  [CLICK ME FOR MORE TESTING ](testing.md) 
 
@@ -282,12 +269,32 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 
 ## Deploying to Heroku
 
+1. Create a requirements.txt file
+2. Create a Procfile
+3. Git add, Git commit and git push the file to the repository
+4. Go to Heroku and create a new app by clicking "new" button in the dashboard
+5. In the Heroku dashboard click on "Deploy" then "Deployment Method", then select Github
+6. Confirm linking the Heroku app to the Github Repository
+7. In the Heroku dashboard go to settings then "Reveal Config Vars"
+8. Then set the config vars 
 
-## AWS
+* To find Mongo Uri follow these setps
+    1. Head over to Mongo
+    2. In the databases section of your cluster find the Connect button
+    3. Once youre in this connect pop out, find the "connect your application section 
+    4. Once youre in there, the Mongo_URi will be found in the 2nd part of that area.
+9. In the Heroku dashboard click Deploy.
+10. In the manual deployment area of this page, make sure youre using the master branch and then click "Deploy Branch"
+11. Congratulations, you've successfully deployed your project
 
 ---------
 
 ## What To Improve Or Add
+* Connect Email address to the contact form
+* expand product range
+* Add more blog posts
+* Improve the footer by adding more information and links
+* Fix the deployment issue
 
 ---------
 
@@ -295,6 +302,6 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 
 During the creation of the project I discovered that my secret key was exposed and needed to remove the secret key which was in my main settings.py file and make a new secret key and relocate it to my env.py file which is a secure file not accessible out side of the workspace.
 
----------
+When deploying my site i experienced a server 500 error, efforts at this time have been unsuccessful at fixing this, currently i suspect that the error is to do with image static files not loading, I think this because when debug becomes true the website loads completely, however the images do not load. When the debug is set to Fale, then the server 500 error occurs
 
-## Credits
+---------
