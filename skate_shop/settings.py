@@ -14,6 +14,10 @@ from pathlib import Path
 import os
 import dj_database_url
 
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
 if os.path.exists("env.py"):
   import env 
 
@@ -199,3 +203,10 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+
+cloudinary.config( 
+  cloud_name = "dnvxi73rz", 
+  api_key = "846819284466498", 
+  api_secret = "vERfw3sYbt-NmlpO-KHgozxuTOc" 
+)
