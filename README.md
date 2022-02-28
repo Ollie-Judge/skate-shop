@@ -234,6 +234,8 @@ The website should be easy to use and simple to understand, it should be intuiti
 
  [CLICK ME FOR MORE TESTING ](testing.md) 
 
+ All .py Files are pep 8 compliant 
+
 ---------
 
 ## Deployment
