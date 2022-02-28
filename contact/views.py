@@ -18,12 +18,13 @@ def contact(request: HttpRequest) -> HttpResponse:
             email = form.cleaned_data["email"]
             subject = form.cleaned_data["subject"]
             message = form.cleaned_data["message"]
-            send_mail(f"a message has been recieved from {email}", subject, message, [settings.EMAIL_HOST_USER])
-            messages.success(request, "Message successfully sent. We will reply to you shortly")
-            return render(request, "contact/contact.html", {"form":form})
+            send_mail(f"a message has been recieved from {email}",
+                      subject, message, [settings.EMAIL_HOST_USER])
+            messages.success(request, "Message successfully sent.
+                             We will reply to you shortly")
+            return render(request, "contact/contact.html", {"form": form})
     else:
         messages.error(request, "Error, message not sent")
-        return render(request, "contact/contact.html", {"form":form})
+        return render(request, "contact/contact.html", {"form": form})
 
-    return render(request, "contact/contact.html", {"form":form})
-
+    return render(request, "contact/contact.html", {"form": form})

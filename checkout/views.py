@@ -1,19 +1,17 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
-
 from .forms import OrderForm
 from .models import Order, OrderLineItem
-
 from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
-
 from bag.contexts import bag_contents
-
 import stripe
 import json
+from django.shortcuts import render, redirect,
+reverse, get_object_or_404, HttpResponse
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -68,7 +66,8 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for size, quantity in item_data
+                        ['items_by_size'].items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
@@ -86,13 +85,13 @@ def checkout(request):
                     return redirect(reverse('view_bag'))
 
             request.session['save-info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success',	
+            return redirect(reverse('checkout_success',
                                     args=[order.order_number]))
         else:
             message.error(request, 'There was an error with your form. \
                 Please double check your information')
 
-    else: 
+    else:
         bag = request.session.get('bag', {})
         if not bag:
             messages.error(request, "Cart is empty")
@@ -139,6 +138,7 @@ def checkout(request):
 
     return render(request, template, context)
 
+
 def checkout_success(request, order_number):
     """
     Handles succesful checkouts
@@ -153,17 +153,17 @@ def checkout_success(request, order_number):
         order.save()
 
     if save_info:
-        profile_data = {	
-                'default_phone_number': order.phone_number,	
-                'default_country': order.country,	
-                'default_postcode': order.postcode,	
-                'default_town_or_city': order.town_or_city,	
-                'default_street_address1': order.street_address1,	
-                'default_street_address2': order.street_address2,	
-                'default_county': order.county,	
-            }	
-        user_profile_form = UserProfileForm(profile_data, instance=profile)	
-        if user_profile_form.is_valid():	
+        profile_data = {
+                'default_phone_number': order.phone_number,
+                'default_country': order.country,
+                'default_postcode': order.postcode,
+                'default_town_or_city': order.town_or_city,
+                'default_street_address1': order.street_address1,
+                'default_street_address2': order.street_address2,
+                'default_county': order.county,
+            }
+        user_profile_form = UserProfileForm(profile_data, instance=profile)
+        if user_profile_form.is_valid():
             user_profile_form.save()
 
     messages.success(request, f'Order has been successfully processed! \
