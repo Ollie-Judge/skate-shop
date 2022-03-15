@@ -118,7 +118,7 @@ def edit_product(request, product_id):
         if form.is_valid():
             product = form.save()
             messages.success(request,
-                             'You have successfully updated teh product')
+                             'You have successfully updated the product')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request,
@@ -128,7 +128,7 @@ def edit_product(request, product_id):
         form = ProductForm(instance=product)
         messages.info(request, f'You are now editing {product.name}')
 
-    template = 'products/add_product.html'
+    template = 'products/edit_product.html'
     context = {
         'form': form,
         'product': product,
